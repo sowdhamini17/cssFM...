@@ -1,0 +1,21 @@
+header{
+    color: aqua;
+}
+.child1{
+    color: aqua;
+}
+/* selects adjacent or next sibling */
+.child1+div{
+    color: antiquewhite;
+}
+/* /allthe siblings after that */
+.child2~div{
+    color:brown
+}
+/* //all the child */
+#parent div{
+    color:blue
+}
+#parent > div{
+    color:rgb(20, 20, 21)
+}
